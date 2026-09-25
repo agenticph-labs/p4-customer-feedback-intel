@@ -95,7 +95,7 @@ def extract_topics(
     n_topics = min(n_topics, tfidf.shape[1] - 1, tfidf.shape[0] - 1)
     n_topics = max(n_topics, 2)
 
-    nmf = NMF(n_components=n_topics, random_state=42, init="random", max_iter=400, l1_ratio=0.5)
+    nmf = NMF(n_components=n_topics, random_state=42, init="random", max_iter=500, l1_ratio=0.5)
     nmf.fit(tfidf)
     feature_names = vectorizer.get_feature_names_out()
 
