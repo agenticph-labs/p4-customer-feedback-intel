@@ -1,5 +1,8 @@
 # Customer Feedback Intelligence System
 
+[![Status: Live](https://img.shields.io/badge/status-live-22c55e.svg)](https://github.com/agenticph-labs/p4-customer-feedback-intel)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 An NLP-powered system that analyzes customer feedback data — extracts sentiment, discovers topics, detects trends, and generates actionable recommendations.
 
 ## 📊 Dashboard Preview
@@ -123,3 +126,7 @@ Reviews span **January – September 2025** to support trend detection.
 ## 📄 License
 
 MIT
+
+---
+
+*Portfolio Project 4 — [AgenticPH Labs](https://agenticph-labs.github.io/portfolio)*
